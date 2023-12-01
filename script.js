@@ -103,7 +103,6 @@ function mostrarMensaje(mensaje) {
 }
 
 function reiniciarJuego() {
-  // Reinicia las variables necesarias para un nuevo juego
   PALABRA = DICCIONARIO[Math.floor(Math.random() * DICCIONARIO.length)];
   intentos = 6;
   juegoTerminado = false;
