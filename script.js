@@ -108,20 +108,20 @@ function reiniciarJuego() {
   intentos = 6;
   juegoTerminado = false;
 
-  // Limpia el contenido existente en el grid
+  
   const GRID = document.getElementById("grid");
   GRID.innerHTML = "";
 
-  // Limpia el campo de entrada
+  
   INPUT.value = "";
 
-  // Habilita el botón de intentar y deshabilita el botón de reiniciar
+
   BUTTON.disabled = false;
   RESTART_BUTTON.style.display = "none";
 
-  // Limpia el mensaje
+
   terminar("");
 
-  // Reinicia el juego
+ 
   console.log(PALABRA);
 }
